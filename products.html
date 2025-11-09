@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Myntra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>MYNTRA</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html" class="active">PRODUCTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="nav-icons">
+                <input type="text" placeholder="Search for products, brands and more" class="search-box">
+                <div class="icon-group">
+                    <span class="icon">👤</span>
+                    <span class="icon">❤️</span>
+                    <span class="icon">🛍️</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Header -->
+    <section class="products-header">
+        <div class="container">
+            <h1>All Products</h1>
+            <p>Showing 1-24 of 10,000+ items</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-layout">
+                <!-- Sidebar Filters -->
+                <aside class="filters-sidebar">
+                    <h3>FILTERS</h3>
+                    <div class="filter-group">
+                        <h4>CATEGORIES</h4>
+                        <label><input type="checkbox"> Shirts</label>
+                        <label><input type="checkbox"> T-Shirts</label>
+                        <label><input type="checkbox"> Jeans</label>
+                        <label><input type="checkbox"> Shoes</label>
+                        <label><input type="checkbox"> Watches</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>BRAND</h4>
+                        <label><input type="checkbox"> Nike</label>
+                        <label><input type="checkbox"> Adidas</label>
+                        <label><input type="checkbox"> Puma</label>
+                        <label><input type="checkbox"> H&M</label>
+                        <label><input type="checkbox"> Zara</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>PRICE</h4>
+                        <label><input type="checkbox"> ₹0 - ₹500</label>
+                        <label><input type="checkbox"> ₹500 - ₹1000</label>
+                        <label><input type="checkbox"> ₹1000 - ₹2000</label>
+                        <label><input type="checkbox"> ₹2000+</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>DISCOUNT</h4>
+                        <label><input type="checkbox"> 50% and above</label>
+                        <label><input type="checkbox"> 40% and above</label>
+                        <label><input type="checkbox"> 30% and above</label>
+                        <label><input type="checkbox"> 20% and above</label>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="products-grid-container">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=500&fit=crop" alt="Men Blue Shirt">
+                                <span class="discount-badge">55% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Roadster</h4>
+                                <p class="product-name">Men Blue Slim Fit Shirt</p>
+                                <p class="price">₹629 <span class="original-price">₹1,399</span> <span class="discount">(55% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=500&fit=crop" alt="Women Black Dress">
+                                <span class="discount-badge">60% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>H&M</h4>
+                                <p class="product-name">Women Black Dress</p>
+                                <p class="price">₹799 <span class="original-price">₹1,999</span> <span class="discount">(60% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop" alt="Nike Shoes">
+                                <span class="discount-badge">70% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Nike</h4>
+                                <p class="product-name">Air Max Running Shoes</p>
+                                <p class="price">₹2,999 <span class="original-price">₹9,999</span> <span class="discount">(70% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop" alt="Slim Fit Jeans">
+                                <span class="discount-badge">45% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Levis</h4>
+                                <p class="product-name">Men Slim Fit Jeans</p>
+                                <p class="price">₹1,649 <span class="original-price">₹2,999</span> <span class="discount">(45% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop" alt="Sports T-Shirt">
+                                <span class="discount-badge">50% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Puma</h4>
+                                <p class="product-name">Sports T-Shirt</p>
+                                <p class="price">₹499 <span class="original-price">₹999</span> <span class="discount">(50% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&h=500&fit=crop" alt="Floral Top">
+                                <span class="discount-badge">65% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Zara</h4>
+                                <p class="product-name">Women Floral Top</p>
+                                <p class="price">₹699 <span class="original-price">₹1,999</span> <span class="discount">(65% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&h=500&fit=crop" alt="White Sneakers">
+                                <span class="discount-badge">40% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Adidas</h4>
+                                <p class="product-name">Sneakers White</p>
+                                <p class="price">₹2,399 <span class="original-price">₹3,999</span> <span class="discount">(40% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=500&fit=crop" alt="Analog Watch">
+                                <span class="discount-badge">55% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Fossil</h4>
+                                <p class="product-name">Analog Watch Brown</p>
+                                <p class="price">₹4,499 <span class="original-price">₹9,999</span> <span class="discount">(55% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop" alt="Casual Jacket">
+                                <span class="discount-badge">50% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Jack & Jones</h4>
+                                <p class="product-name">Casual Jacket Blue</p>
+                                <p class="price">₹1,999 <span class="original-price">₹3,999</span> <span class="discount">(50% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400&h=500&fit=crop" alt="Midi Skirt">
+                                <span class="discount-badge">60% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Mango</h4>
+                                <p class="product-name">Women Midi Skirt</p>
+                                <p class="price">₹899 <span class="original-price">₹2,249</span> <span class="discount">(60% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=500&fit=crop" alt="Running Shoes">
+                                <span class="discount-badge">45% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Campus</h4>
+                                <p class="product-name">Running Shoes Black</p>
+                                <p class="price">₹1,099 <span class="original-price">₹1,999</span> <span class="discount">(45% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1610652492500-ded49ceaa901?w=400&h=500&fit=crop" alt="Ethnic Kurta">
+                                <span class="discount-badge">70% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Biba</h4>
+                                <p class="product-name">Women Ethnic Kurta</p>
+                                <p class="price">₹599 <span class="original-price">₹1,999</span> <span class="discount">(70% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=400&h=500&fit=crop" alt="Denim Jacket">
+                                <span class="discount-badge">55% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Wrangler</h4>
+                                <p class="product-name">Men Denim Jacket</p>
+                                <p class="price">₹1,349 <span class="original-price">₹2,999</span> <span class="discount">(55% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=400&h=500&fit=crop" alt="Summer Dress">
+                                <span class="discount-badge">60% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Forever 21</h4>
+                                <p class="product-name">Summer Floral Dress</p>
+                                <p class="price">₹959 <span class="original-price">₹2,399</span> <span class="discount">(60% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&h=500&fit=crop" alt="Canvas Sneakers">
+                                <span class="discount-badge">50% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Converse</h4>
+                                <p class="product-name">Canvas Sneakers Black</p>
+                                <p class="price">₹1,499 <span class="original-price">₹2,999</span> <span class="discount">(50% OFF)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&h=500&fit=crop" alt="Cotton Shirt">
+                                <span class="discount-badge">45% OFF</span>
+                                <span class="wishlist-icon">♡</span>
+                            </div>
+                            <div class="product-info">
+                                <h4>Allen Solly</h4>
+                                <p class="product-name">Cotton Casual Shirt</p>
+                                <p class="price">₹824 <span class="original-price">₹1,499</span> <span class="discount">(45% OFF)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>ONLINE SHOPPING</h3>
+                <ul>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>Home & Living</li>
+                    <li>Beauty</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>CUSTOMER POLICIES</h3>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Terms of Use</li>
+                    <li>Track Orders</li>
+                    <li>Shipping</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                    <li>Site Map</li>
+                    <li>Corporate Information</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>EXPERIENCE MYNTRA APP</h3>
+                <div class="app-buttons">
+                    <div class="app-btn">Google Play</div>
+                    <div class="app-btn">App Store</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 www.myntra.com. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
